@@ -1,8 +1,10 @@
 package spring.lessons.di;
 
-import java.util.Calendar;
+import org.springframework.stereotype.Component;
+
 import java.util.Scanner;
 
+@Component
 public class ConsoleInput {
     private Scanner scanner = new Scanner(System.in);
 

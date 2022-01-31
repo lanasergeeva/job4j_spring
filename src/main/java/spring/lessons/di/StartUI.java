@@ -1,5 +1,8 @@
 package spring.lessons.di;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class StartUI {
     private Store store;
     private ConsoleInput consoleInput;
